@@ -43,7 +43,7 @@
         </region>
     </spawn>
     <default>
-    	<region>
+        <region yaw="-180">
        		<cuboid min="-9,24.5,302" max="-5,22.5,298"/>
        	</region>
     </default>
@@ -114,7 +114,7 @@
     <apply enter="only-red" message="You may not enter your own woolroom!" region="blue-woolrooms"/>
 </regions>
 <renewables>
-    <renewable interval="8" grow="false" particles="false" sound="true" avoid-entities="true">
+    <renewable interval="15" grow="false" particles="false" sound="true" avoid-entities="true">
         <region>
             <union>
                 <cuboid min="111,0,196" max="82,15,227"/>
